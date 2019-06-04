@@ -1,0 +1,11 @@
+state: enabled
+email: tatiana.perry@bigcommerce.com
+fullname: 'Testing Bigcommerce'
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$NYau1ixq5yx/f0AxITZwHedKP.TWsGjf.FGzxthiD5d7ySqtiZqsy

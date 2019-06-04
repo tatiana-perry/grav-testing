@@ -1,0 +1,11 @@
+1558731919
+a:2:{s:7:"content";s:935:"<h1>We are the homepage!</h1>
+<p>Welcome to the Theme and API Test Pages!!</p>
+<h2>UML diagrams</h2>
+<p><canvas id="target_252c4da9057670eb7d35948c338d9e98"></canvas><script id="nomnoml_252c4da9057670eb7d35948c338d9e98" type="text/plain">[Grav]->[Awesome]</script><script>window.addEventListener("load", function(){var canvas = document.getElementById("target_252c4da9057670eb7d35948c338d9e98");var source_252c4da9057670eb7d35948c338d9e98 = document.getElementById("nomnoml_252c4da9057670eb7d35948c338d9e98");var source_252c4da9057670eb7d35948c338d9e98 = source_252c4da9057670eb7d35948c338d9e98.innerHTML;nomnoml.draw(canvas, source_252c4da9057670eb7d35948c338d9e98);});</script></p>
+<h2>Plugins used</h2>
+<ul>
+<li>https://github.com/StellarisStudio/grav-plugin-markdown-clipboard</li>
+<li>https://github.com/team-grav/grav-plugin-page-toc</li>
+<li><a href="https://github.com/getgrav/grav-plugin-highlight">highlight.js</a></li>
+</ul>";s:12:"content_meta";N;}

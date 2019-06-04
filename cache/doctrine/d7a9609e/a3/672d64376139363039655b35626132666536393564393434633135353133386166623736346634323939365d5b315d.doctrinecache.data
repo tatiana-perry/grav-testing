@@ -1,0 +1,27 @@
+1558732371
+a:2:{s:7:"content";s:1373:"<h1>Cart and Checkout</h1>
+<p>The Storefront APIs are for managing the contents of a shopper’s cart and checkout using JavaScript in the context of a storefront session.</p>
+<h2>When to Use the Storefront APIs</h2>
+<ul>
+<li>Analytics and Tracking</li>
+<li>Retrieving cart data client-side</li>
+<li>Quick Order Form</li>
+<li>Upsell applications</li>
+</ul>
+<hr />
+<h2>Using the Fetch API</h2>
+<p>The Fetch API is an alternative to XMLHttpRequest for making http requests in JavaScript. You can use the Fetch API to interact with the Storefront APIs and return a shopper’s cart, checkout or order.</p>
+<p>Fetch API is supported by most modern browsers, but it is not supported in Internet Explorer. We recommend using a Polyfill for Internet Explorer 10+ and XMLHttpRequest for earlier versions.</p>
+<p>To learn more about using the Fetch API with the Storefront see our tutorial here.</p>
+<p>You can run fetch requests from the browser console to test, or you can use the Scripts API to add inject JavaScript into your theme’s footer.</p>
+<p><strong> Log Cart Details to the Console</strong></p>
+<pre><code class="language-javascript">&lt;script&gt;
+console.log('Log Cart');
+fetch('/api/storefront/cart', {
+  credentials: 'include'
+}).then(function(response) {
+  return response.json();
+}).then(function(myJson) {
+  console.log(myJson);
+});
+&lt;/script&gt;</code></pre>";s:12:"content_meta";N;}
